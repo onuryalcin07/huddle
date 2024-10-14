@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box  
+}
+body{
+    font-size: 1rem;
+    font-family: "Open Sans", system-ui;
+    background-color: white;
+    color: black;
+}
+header{
+    height: 100vh;
+    padding: 3em 4em 3.3em 4.9em;
+    background-image: url(images/bg-hero-desktop.svg);    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+nav img{
+    width: 16%;
+}
+nav .btn{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px 60px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.container{
+    height: auto;
+    margin: 10em 5em 4em 6em;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.content-1{
+    margin-top: 60px;
+}
+.content-1 h1 {
+    width: 90%;
+    font-size: 2.5rem;
+    line-height: 1.5em;
+    margin-bottom: 0.6em;
+}
+.content-1 p{
+    font-size: 16px;
+    font-weight: 500;
+    width: 90%;
+    line-height: 20px;
+    margin-bottom: 1.5em;
+    color: black;
+}
+.head-btn{
+    font-size: 15px;
+    padding: 20px 65px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+}
+.grow{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5em 2.5em 3.7em 7.4em;
+    border-radius: 15px;
+    margin-bottom: 2.5em;    
+}
+.conversation{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5em 2.5em 3.7em 7.4em;
+    border-radius: 15px;
+    margin-bottom: 2.5em;    
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5em 2.5em 3.7em 7.4em;
+    border-radius: 15px;
+    margin-bottom: 2.5em;    
+}
+.content-disc{
+    font-size: 20px;
+    width: 50%;
+    margin-top: 6.2em;
+
+}
+.content-disc h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.6em;
+
+}
+.content-disc p{
+    line-height: 27px;
+    color: black;
+    font-weight: lighter;
+}
+.grow img{
+    margin-top: 1em;
+    width: 37%;
+}
+.conversation img{
+    margin-top: 2em;
+    margin-bottom: 1.8em;
+    width: 35%;
+}
+.user img{
+    margin-top: 1.4em;
+    margin-bottom: 1.2em;
+    width: 35%;
+}
+.Ready-Tobuild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    background: hsl(192, 100%, 9%);
+    color: white;
+    padding: 12em 7em 6em 8em;
+    margin-top: 24%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: start;
+}    
+footer.logo{
+    margin-bottom: 2.5em;
+
+}
+.end-content{
+    display: flex;
+
+}
+.location{
+    width: 30%;
+    margin-right: 8em;
+
+}
+.location div{
+    display: flex;
+}
+.location p{
+    margin-bottom: 1.6em;
+    line-height: 23px;
+    font-weight: 300;
+}
+
+.location span{
+    margin-right: 1em;
+}
+.about ul{
+    margin-right: 7em;
+}
+.carier ul{
+    margin-right: 10em;
+}
+.socials ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.socials ul div{
+    width: 30px;
+    height: 30px;
+}
+.Copyright{
+    position: absolute;
+    top: 90%;
+    right: 12em;
+    font-weight: 200;
+}
+@media (max-width:800px){
+    header{
+        height: 100vh;
+        padding: 1em;
+
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2em;
+        text-align: center;
+
+    }
+    .head-btn{
+        margin-bottom: 20px;
+    }
+    .content img{
+        width: 100%;
+
+    }
+    .grow{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0.6em;
+        margin-top: 15em;
+        text-align: center;
+    }
+    .conversation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.6em;
+        margin-top: 15em;
+        text-align: center;
+    }
+    .user{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0.6em;
+        margin-top: 15em;
+        text-align: center;
+    }
+    .end-content{
+        flex-direction: column;
+
+    }
+    footer{
+        margin-top: 70em;
+        padding: 4em 1.5em 1.5em 1.5em;
+    }
+    .location{
+        width: 100%;
+        margin: 0em;
+    }
+    .location div{
+        display: flex;
+
+    }
+    .location p{
+        margin-bottom: 2em;
+        line-height: 20px;
+        font-weight: 300;
+
+    }
+    .about ul{
+        margin-right: 0em;
+    }
+    .carier ul{
+        margin-right: 0em;
+    }
+    .socials{
+        margin-top: 1em;
+    }
+    .Copyright{
+        position: relative;
+        top: 0;
+        right: 0;
+        font-size: 0.8rem;
+        font-weight: 300;
+        margin-top: 2em;
+        
+    }
+    
+}
+
